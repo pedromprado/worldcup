@@ -2,11 +2,11 @@
 # -*- coding: windows-1252 -*-
 
 def gerarScore(df,grupo):
-    import pandas as pd
+    import pandas as pd # Python Data Analysis Library
     import csv
     import sys
     import statistics
-    import numpy as np
+    import numpy as np  # Scientific computing package
     total = []
 
     with open('worldcup2018.csv') as csvfile:
